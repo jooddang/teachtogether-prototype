@@ -9,3 +9,12 @@
 .center-text {
 	text-align: center;
 }
+
+.border {
+	border: 0.1em solid;
+	border-color: #ababab;
+}
+
+.plus-margin {
+	margin-left: 10px;
+}
