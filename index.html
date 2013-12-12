@@ -1,22 +1,49 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type='text/css' href="css/bootstrap.min.css">
+	<link rel="stylesheet" type='text/css' href="css/style.css">
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div id="main">
+			<div id="main" class="col-xs-12 col-md-8">
 				<h1>TEACH TOGETHER</h1>
-				<img src="#">
+				<img src="img/Confused_teacher.jpg">
 			</div>
-			<div id="signup">
+			<div id="signup" class="col-xs-6 col-md-4 img-thumbnail margin-top">
+				<input type="email" class="form-control form-margin-top" placeholder="Enter Email">
+				<input type="password" class="form-control form-margin-top" placeholder="Enter password">
+				<input type="button" class="btn btn-primary form-control form-margin-top" value="Sign In"/>
+				<hr/>
+				<h4>Sign Up</h4>
+				<input type="text" class="form-control form-margin-top" placeholder="Enter first name">
+				<input type="text" class="form-control form-margin-top" placeholder="Enter last name">
+				<input type="email" class="form-control form-margin-top" placeholder="Enter Email">
+				<input type="password" class="form-control form-margin-top" placeholder="Enter password">
+				<input type="button" class="btn btn-info form-control form-margin-top" value="Sign Up"/>
 			</div>
 		</div>
 		<div class="row">
-			<div id="bottom_bar">
-			</div>
+			<table id="bottom_bar" class="table table-hover margin-top">
+				<tr>
+				<td class="col-sm-3 col-md-3 center-text">
+				ABOUT
+				</td>
+				<td class="col-sm-3 col-md-3 center-text"> 
+				TERMS
+				</td> 
+				<td class="col-sm-3 col-md-3 center-text">
+				PRIVACY
+				</td>
+				<td class="col-sm-3 col-md-3 center-text">
+				CAREERS
+				</td></tr>
+			</table>
 		</div>
 	</div>
-	<script src="js/bootstrap.min.js">
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
