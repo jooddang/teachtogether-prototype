@@ -22,3 +22,16 @@
 .max-wid {
 	max-width: 100%;
 }
+
+.max-hei {
+	max-height: 100%;
+}
+
+td .middle-text {
+	vertical-align: middle;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
