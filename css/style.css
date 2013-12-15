@@ -39,3 +39,15 @@ a {
 .pad {
 	padding: 0.5em;
 }
+
+.text-green {
+	color: #009100;
+}
+
+.text-orange {
+	color: #915500;
+}
+
+.about-text {
+	font-size: 1.5em;
+}
